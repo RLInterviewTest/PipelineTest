@@ -6,7 +6,9 @@
 trigger:
  branches:
    include:
-     - main/API*
+     - main
+   exclude:
+     - main/pipeline-test-frontend
 
 
 pool:
